@@ -1,0 +1,8 @@
+{
+  "app": "node dist/index",
+  "context": {
+    "from_email": "markus.lindqvist@iki.fi",
+    "target_email": "markus.lindqvist@iki.fi",
+    "notification_topic": "arn:aws:sns:eu-west-1:872821666058:ExampleStack-ImageScanCompletedTopic08428532-RTLEXMO8349I"
+  }
+}

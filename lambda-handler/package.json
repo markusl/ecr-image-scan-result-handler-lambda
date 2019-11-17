@@ -1,0 +1,17 @@
+{
+    "name": "ecr-scan-result-handler-lambda",
+    "version": "1.0.0",
+    "description": "A Lambda function to handle ECR image scan results",
+    "license": "MIT",
+    "repository": "",
+    "scripts": {
+        "build": "npm i && tsc"
+    },
+    "dependencies": {
+        "aws-sdk": "^2.573.0"
+    },
+    "devDependencies": {
+        "@types/aws-lambda": "^8.10.36",
+        "@types/node": "^12.12.8"
+    }
+}

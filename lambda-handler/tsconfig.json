@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "declaration": false,
+      "mapRoot": "./",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "dist",
+      "sourceMap": true,
+      "target": "ES2017",
+      "types": [ "node" ],
+      "typeRoots": [
+        "./node_modules/@types"
+      ],
+      "lib": ["es6"]
+    },
+    "include": [
+      "*.ts"
+    ]
+  }
