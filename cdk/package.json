@@ -1,5 +1,5 @@
 {
-    "name": "ecr-image-scan-results-handler",
+    "name": "ecr-image-scan-results-handler-deployment",
     "version": "1.0.0",
     "description": "A CDK deployment for the Lambda function",
     "license": "MIT",
@@ -8,16 +8,16 @@
         "build-lambda-layer": "cd ../lambda-runtime-layer/nodejs && npm run build && cd ../../cdk",
         "build": "npm run build-lambda && npm run build-lambda-layer && npm i && tsc"
     },
-    "repository": "",
+    "repository": "https://github.com/markusl/ecr-image-scan-result-handler-lambda.git",
     "devDependencies": {
-        "@aws-cdk/assets": "1.15.0",
-        "@aws-cdk/aws-events": "^1.16.3",
-        "@aws-cdk/aws-events-targets": "^1.16.3",
-        "@aws-cdk/aws-iam": "^1.16.3",
-        "@aws-cdk/aws-lambda": "^1.16.3",
-        "@aws-cdk/aws-sns": "^1.16.3",
-        "@aws-cdk/core": "^1.16.3",
-        "@types/node": "^12.12.8",
+        "@aws-cdk/assets": "^1.17.0",
+        "@aws-cdk/aws-events": "^1.17.0",
+        "@aws-cdk/aws-events-targets": "^1.17.0",
+        "@aws-cdk/aws-iam": "^1.17.0",
+        "@aws-cdk/aws-lambda": "^1.17.0",
+        "@aws-cdk/aws-sns": "^1.17.0",
+        "@aws-cdk/core": "^1.17.0",
+        "@types/node": "^12.12.9",
         "typescript": "^3.7.2"
     },
     "dependencies": {}

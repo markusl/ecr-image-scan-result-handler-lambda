@@ -7,11 +7,10 @@
     "scripts": {
         "build": "npm i && tsc"
     },
-    "dependencies": {
-        "aws-sdk": "^2.573.0"
-    },
+    "dependencies": {},
     "devDependencies": {
         "@types/aws-lambda": "^8.10.36",
-        "@types/node": "^12.12.8"
+        "@types/node": "^12.12.9",
+        "aws-sdk": "^2.573.0"
     }
 }
