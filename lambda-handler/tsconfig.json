@@ -1,8 +1,7 @@
 {
     "compilerOptions": {
-      "declaration": false,
-      "mapRoot": "./",
       "module": "commonjs",
+      "lib": ["es2017"],
       "moduleResolution": "node",
       "outDir": "dist",
       "sourceMap": true,
@@ -11,7 +10,8 @@
       "typeRoots": [
         "./node_modules/@types"
       ],
-      "lib": ["es6"]
+      "strict": true,
+      "noUnusedLocals": true
     },
     "include": [
       "*.ts"

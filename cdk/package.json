@@ -10,14 +10,14 @@
     },
     "repository": "https://github.com/markusl/ecr-image-scan-result-handler-lambda.git",
     "devDependencies": {
-        "@aws-cdk/assets": "^1.17.0",
-        "@aws-cdk/aws-events": "^1.17.0",
-        "@aws-cdk/aws-events-targets": "^1.17.0",
-        "@aws-cdk/aws-iam": "^1.17.0",
-        "@aws-cdk/aws-lambda": "^1.17.0",
-        "@aws-cdk/aws-sns": "^1.17.0",
-        "@aws-cdk/core": "^1.17.0",
-        "@types/node": "^12.12.9",
+        "@aws-cdk/assets": "^1.17.1",
+        "@aws-cdk/aws-events": "^1.17.1",
+        "@aws-cdk/aws-events-targets": "^1.17.1",
+        "@aws-cdk/aws-iam": "^1.17.1",
+        "@aws-cdk/aws-lambda": "^1.17.1",
+        "@aws-cdk/aws-sns": "^1.17.1",
+        "@aws-cdk/core": "^1.17.1",
+        "@types/node": "^12.12.12",
         "typescript": "^3.7.2"
     },
     "dependencies": {}

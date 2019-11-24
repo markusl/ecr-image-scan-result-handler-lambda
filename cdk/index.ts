@@ -16,7 +16,7 @@ export const createEcrImageScanResultHandlerStack = (
     toAddress: string,
     props: cdk.StackProps) =>
 {
-    const lambdaStack = new cdk.Stack(scope, `${componentName}`, props);
+    const lambdaStack = new cdk.Stack(scope, componentName, props);
     const lambdaLayerCode = lambda.Code.fromAsset('../lambda-runtime-layer');
     const lambdaCode = lambda.Code.fromAsset('../lambda-handler/dist');
 
@@ -52,8 +52,8 @@ export const createEcrImageScanResultHandlerStack = (
         description: 'A layer to include AWS SDK for Lambda',
     });
 
-    const ecrScanResultHandlerLambda = new lambda.Function(lambdaStack, `${componentName}`, {
-        functionName: `${componentName}`,
+    const ecrScanResultHandlerLambda = new lambda.Function(lambdaStack, componentName, {
+        functionName: componentName,
         description: `Handler for ECR Image Scan results`,
         runtime: lambda.Runtime.NODEJS_10_X,
         handler: 'handler.handler',
