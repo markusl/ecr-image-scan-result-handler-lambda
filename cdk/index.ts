@@ -48,14 +48,14 @@ export const createEcrImageScanResultHandlerStack = (
 
     const lambdaLibLayer = new lambda.LayerVersion(lambdaStack, `${componentName}-AwsSdkLayer`, {
         code: lambdaLayerCode,
-        compatibleRuntimes: [lambda.Runtime.NODEJS_10_X],
+        compatibleRuntimes: [lambda.Runtime.NODEJS_12_X],
         description: 'A layer to include AWS SDK for Lambda',
     });
 
     const ecrScanResultHandlerLambda = new lambda.Function(lambdaStack, componentName, {
         functionName: componentName,
         description: `Handler for ECR Image Scan results`,
-        runtime: lambda.Runtime.NODEJS_10_X,
+        runtime: lambda.Runtime.NODEJS_12_X,
         handler: 'handler.handler',
         role: lambdaRole,
         code: lambdaCode,

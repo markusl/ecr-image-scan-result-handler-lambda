@@ -26,6 +26,8 @@ The implementation consists of three parts:
 * `lambda-runtime-layer/` contains a runtime layer for the lambda with the needed AWS SDK
 * `cdk/` contains deployment code for the functionality
 
+We must include the latest AWS SDK in a Lambda Layer since nodejs12.x runtime contains AWS SDK version 2.536.0 which does not include the ECR image scan compatibility (released in 2.557.0).
+
 ### Configuration
 
 Configure the SNS topic and sender address in the `cdk.json` file. You might have to verify the email in Amazon SES service.
