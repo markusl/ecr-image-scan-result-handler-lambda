@@ -1,0 +1,16 @@
+{
+    "version": "0",
+    "id": "99c9ba1f-bba7-95c3-ca10-5d6dc8a992ee",
+    "detail-type": "ECR Image Scan",
+    "source": "aws.ecr",
+    "account": "804416728801",
+    "time": "2019-11-14T09:52:31Z",
+    "region": "eu-central-1",
+    "resources": ["arn:aws:ecr:eu-central-1:804416728801:repository/repository-name"],
+    "detail": {
+        "scan-status": "COMPLETE",
+        "repository-name": "repository-name",
+        "image-digest": "sha256:99c9ba1fbba795c3ca105d6dc8a992ee99c9ba1fbba795c3ca105d6dc8a992ee",
+        "image-tags": ["99c9ba1fbba795c3ca105d6dc8a992ee", "latest"]
+    }
+}
