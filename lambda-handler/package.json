@@ -9,8 +9,8 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "@types/aws-lambda": "^8.10.36",
-        "@types/node": "^12.12.9",
-        "aws-sdk": "^2.573.0"
+        "@types/aws-lambda": "^8.10.39",
+        "@types/node": "^13.1.8",
+        "aws-sdk": "^2.606.0"
     }
 }
