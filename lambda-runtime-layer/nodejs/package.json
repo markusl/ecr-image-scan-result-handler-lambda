@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "aws-sdk": "^2.606.0"
+    "aws-sdk": "^2.814.0"
   },
   "name": "lambda-runtime-layer",
   "version": "1.0.0",
